@@ -61,4 +61,4 @@ diagrams/
 
 ---
 
-Part of [CertGrid Study Resources](../../).
+Part of [CertGrid Study Resources](../../README.md).

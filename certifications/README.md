@@ -32,4 +32,4 @@ Keep the folder short, such as `az-900`, and use the full exam name in the READM
 
 ---
 
-Part of [CertGrid Study Resources](../). Study material only - no exam questions or braindumps.
+Part of [CertGrid Study Resources](../README.md). Study material only - no exam questions or braindumps.
