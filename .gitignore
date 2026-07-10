@@ -1,0 +1,34 @@
+# Large binaries - never commit (link to the official download instead)
+*.zip
+*.tar.gz
+*.tgz
+*.iso
+*.exe
+*.msi
+binaries/
+
+# Secrets - never commit
+*.pem
+*.key
+*.pfx
+.env
+*.env
+secrets/
+**/secret-*.yaml
+!**/secret-TEMPLATE.yaml
+
+# Terraform state (can contain secrets)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# internal planning - never publish
+ROLLOUT.md
+
+# OS / editor / Office temp
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+.vscode/
+.idea/

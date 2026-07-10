@@ -1,27 +1,51 @@
 # CertGrid Study Resources
 
-Expertly curated, exam-focused study material to help you pass cloud and IT certifications - concise cheatsheets, exam-ready notes, practical checklists, and hands-on reference guides. Everything here is free to use.
+Free, exam-focused study notes for cloud and IT certifications. Each exam is kept in one folder so learners can bookmark a clean path and study without jumping across the repo.
 
-## What's inside
+## Available now
 
-- **Cheatsheets** - quick-reference notes by platform (Azure, AWS, Google Cloud, networking, Linux, security, and more)
-- **Certification notes** - domain breakdowns and study roadmaps per exam
-- **Checklists** - step-by-step operational checklists for cloud, servers, security, and migrations
-- **Hands-on references** - deployment manifests, infrastructure templates, and automation snippets
-- **Reference architectures** - diagrams and reusable design patterns
+- [AZ-900: Microsoft Azure Fundamentals](certifications/microsoft/az-900/)
 
-_Content is added continuously. Star the repo to follow along._
+## Folder pattern
+
+Each exam should follow this structure:
+
+```text
+certifications/
+  vendor/
+    exam-code/
+      README.md
+      study-notes/
+      cheatsheets/
+      labs/
+      diagrams/
+```
+
+Example:
+
+```text
+certifications/
+  microsoft/
+    az-900/
+      README.md
+      study-notes/
+        01-cloud-concepts.md
+        02-azure-architecture-services.md
+        03-management-governance.md
+      cheatsheets/
+        az-900-quick-reference.md
+        az-900-common-confusions.md
+      labs/
+        storage-account-lab.md
+        vm-basic-lab.md
+      diagrams/
+        azure-core-architecture.md
+```
 
 ## A note on exam content
 
-These are original study notes and references. We do **not** host real or leaked exam questions ("braindumps") - that violates certification agreements. Practice questions live in the app, not here.
-
-## Found an error?
-
-Open an issue or a pull request. Corrections are very welcome and fixed fast.
+These are original study notes and references. We do **not** host real or leaked exam questions ("braindumps"). Practice questions live in the CertGrid app, not in this repository.
 
 ---
 
-Maintained by the team behind **[CertGrid](https://certgrid.app)**, a certification practice-exam platform where every question explains why each wrong answer is wrong, not just the right one. Free plan to start. _(Disclosure: we build CertGrid.)_
-
-Licensed under MIT - reuse freely with attribution.
+Maintained by the team behind [CertGrid](https://certgrid.app). Licensed under MIT.
