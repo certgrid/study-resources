@@ -61,18 +61,19 @@ Management Groups
 
 ## Core Services
 
-| Need                        | Service                   |
-| --------------------------- | ------------------------- |
-| Full OS control             | Azure Virtual Machines    |
-| Host web app                | Azure App Service         |
-| Event-driven code           | Azure Functions           |
-| Simple container            | Azure Container Instances |
-| Kubernetes                  | Azure Kubernetes Service  |
-| Object storage              | Blob Storage              |
-| File share                  | Azure Files               |
-| NoSQL global database       | Azure Cosmos DB           |
-| Managed relational database | Azure SQL Database        |
-| Cloud identity              | Microsoft Entra ID        |
+| Need                         | Service                   |
+| ---------------------------- | ------------------------- |
+| Full OS control              | Azure Virtual Machines    |
+| Host web app                 | Azure App Service         |
+| Event-driven code            | Azure Functions           |
+| Simple container             | Azure Container Instances |
+| Kubernetes                   | Azure Kubernetes Service  |
+| Cloud-hosted Windows desktop | Azure Virtual Desktop     |
+| Object storage               | Blob Storage              |
+| File share                   | Azure Files               |
+| NoSQL global database        | Azure Cosmos DB           |
+| Managed relational database  | Azure SQL Database        |
+| Cloud identity               | Microsoft Entra ID        |
 
 ## Networking
 
@@ -85,6 +86,16 @@ Management Groups
 | ExpressRoute           | Private dedicated connection       |
 | Load Balancer          | Layer 4 traffic distribution       |
 | Application Gateway    | Layer 7 web traffic distribution   |
+| VNet peering           | Private VNet-to-VNet connectivity  |
+
+## Storage Tiers
+
+| Tier    | Use when...                                   |
+| ------- | --------------------------------------------- |
+| Hot     | Data is accessed frequently                   |
+| Cool    | Data is accessed infrequently                 |
+| Cold    | Data is rarely accessed                       |
+| Archive | Data is kept long term and retrieval can wait |
 
 ## Governance and Management
 
@@ -101,6 +112,17 @@ Management Groups
 | Security posture                | Defender for Cloud |
 | Personalized service issue view | Service Health     |
 
+## Security Basics
+
+| Concept              | Remember                                      |
+| -------------------- | --------------------------------------------- |
+| Zero Trust           | Verify explicitly; do not trust by default    |
+| Defense-in-depth     | Use multiple layers of security               |
+| Authentication       | Proves who someone is                         |
+| Authorization        | Decides what someone can do                   |
+| Service Trust Portal | Compliance, audit, privacy, and trust reports |
+| Azure Marketplace    | Microsoft and partner solutions catalog       |
+
 ## Final Reminders
 
 - Policy answers "what is allowed?"
@@ -113,3 +135,5 @@ Management Groups
 - Advisor recommends improvements.
 - Service Health is personalized.
 - Azure Status is public.
+- Authentication happens before authorization.
+- Archive tier is not for data that must be accessed immediately.

@@ -19,6 +19,17 @@ Think of this domain as the "operate Azure responsibly" domain.
 | Checking personalized Azure outages        | Azure Service Health         |
 | Improving security posture                 | Microsoft Defender for Cloud |
 
+## Exam-ready summary
+
+| Learn deeply                                                | Memorize clearly                                                |
+| ----------------------------------------------------------- | --------------------------------------------------------------- |
+| How cost tools fit before and after deployment              | Pricing Calculator, TCO Calculator, Cost Management             |
+| How governance tools differ from each other                 | Policy, RBAC, locks, tags                                       |
+| How monitoring, recommendations, and health tools differ    | Monitor, Advisor, Service Health, Resource Health, Azure Status |
+| Why security posture is different from identity permissions | Defender for Cloud improves posture; RBAC grants access         |
+
+If you only remember one idea from this domain, remember this: governance answers depend on whether the question asks who, what, protect, organize, monitor, or recommend.
+
 ## Cost Tools
 
 | Tool                      | Purpose                                                                      |
@@ -194,6 +205,21 @@ It can help with:
 | "Use Azure Status for personalized outage alerts" | Use Service Health for personalized service issues.  |
 | "Use Advisor to collect logs"                     | Use Azure Monitor for logs and metrics.              |
 | "Use tags to secure resources"                    | Tags organize and report; they do not secure access. |
+
+## Fast elimination method
+
+| Question wording                            | Usually points to    |
+| ------------------------------------------- | -------------------- |
+| Who can access or manage resources?         | RBAC                 |
+| Which locations, SKUs, or tags are allowed? | Azure Policy         |
+| Prevent accidental deletion                 | Resource lock        |
+| Organize resources for reporting            | Tags                 |
+| Estimate cost before deployment             | Pricing Calculator   |
+| Compare datacenter cost with Azure          | TCO Calculator       |
+| Track actual spend                          | Cost Management      |
+| Collect logs, metrics, and alerts           | Azure Monitor        |
+| Get optimization recommendations            | Azure Advisor        |
+| Personalized service outage view            | Azure Service Health |
 
 ## Mini Scenarios
 

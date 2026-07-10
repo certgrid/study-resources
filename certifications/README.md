@@ -1,15 +1,25 @@
 # Certification Study Notes
 
-Exam-focused study notes, cheatsheets, labs, and diagrams.
+Choose a platform, then open the exam folder.
 
-## Microsoft
+## Platforms
 
-- [AZ-900: Microsoft Azure Fundamentals](microsoft/az-900/)
+| Platform | Link |
+| -------- | ---- |
+| Microsoft | [certifications/microsoft](microsoft/) |
+| AWS | Coming soon |
+| Google Cloud | Coming soon |
+| Cisco | Coming soon |
+| Security | Coming soon |
+| HashiCorp | Coming soon |
+| Linux | Coming soon |
+| VMware | Coming soon |
+| Kubernetes / Cloud Native | Coming soon |
 
-## Standard exam folder pattern
+## Standard Exam Folder Pattern
 
 ```text
-vendor/
+platform/
   exam-code/
     README.md
     study-notes/

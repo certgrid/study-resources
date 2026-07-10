@@ -1,18 +1,34 @@
 # CertGrid Study Resources
 
-Free, exam-focused study notes for cloud and IT certifications. Each exam is kept in one folder so learners can bookmark a clean path and study without jumping across the repo.
+Free, exam-focused study notes for cloud and IT certifications. Pick a platform, then choose the certification you are preparing for.
 
-## Available now
+Each exam is kept in one folder with notes, cheatsheets, labs, and diagrams so learners can bookmark a clean path and study without jumping across the repo.
 
-- [AZ-900: Microsoft Azure Fundamentals](certifications/microsoft/az-900/)
+## Platforms
 
-## Folder pattern
+| Platform | Study notes |
+| -------- | ----------- |
+| Microsoft | [View Microsoft certification notes](certifications/microsoft/) |
+| AWS | Coming soon |
+| Google Cloud | Coming soon |
+| Cisco | Coming soon |
+| Security | Coming soon |
+| HashiCorp | Coming soon |
+| Linux | Coming soon |
+| VMware | Coming soon |
+| Kubernetes / Cloud Native | Coming soon |
 
-Each exam should follow this structure:
+## Available Now
+
+| Certification | Platform | Start here |
+| ------------- | -------- | ---------- |
+| AZ-900: Microsoft Azure Fundamentals | Microsoft | [Open study pack](certifications/microsoft/az-900/) |
+
+## How the Repository Is Organized
 
 ```text
 certifications/
-  vendor/
+  platform/
     exam-code/
       README.md
       study-notes/
@@ -29,20 +45,12 @@ certifications/
     az-900/
       README.md
       study-notes/
-        01-cloud-concepts.md
-        02-azure-architecture-services.md
-        03-management-governance.md
       cheatsheets/
-        az-900-quick-reference.md
-        az-900-common-confusions.md
       labs/
-        storage-account-lab.md
-        vm-basic-lab.md
       diagrams/
-        azure-core-architecture.md
 ```
 
-## A note on exam content
+## A Note on Exam Content
 
 These are original study notes and references. We do **not** host real or leaked exam questions ("braindumps"). Practice questions live in the CertGrid app, not in this repository.
 

@@ -22,6 +22,17 @@ Cloud computing is the delivery of compute, storage, networking, databases, anal
 
 Azure is Microsoft's cloud platform. For AZ-900, you do not need to design complex solutions, but you must understand the language Azure uses: regions, elasticity, availability, scalability, service models, deployment models, and shared responsibility.
 
+## Exam-ready summary
+
+| Learn deeply                                                              | Memorize clearly                                                        |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Why organizations move from datacenters to cloud                          | CapEx means upfront purchase; OpEx means ongoing usage cost             |
+| How cloud changes responsibility between customer and provider            | IaaS, PaaS, and SaaS responsibility order                               |
+| Why scaling, elasticity, high availability, and reliability are different | Scalability changes capacity; elasticity changes capacity automatically |
+| Why hybrid cloud is common in real companies                              | Public, private, and hybrid deployment models                           |
+
+If you only remember one idea from this domain, remember this: cloud gives flexible access to IT resources, but the customer still has responsibilities.
+
 ## CapEx vs OpEx
 
 | Term  | Meaning                                                                 | Example                                                               |
@@ -157,6 +168,18 @@ Exam tip: the higher you go from IaaS to SaaS, the less the customer manages.
 | "SaaS means no responsibility"            | Customers still manage users, data, access, and configuration choices.                                                              |
 | "Elasticity and scalability are the same" | Elasticity emphasizes automatic response to demand.                                                                                 |
 | "High availability means backup"          | Backup helps recovery. High availability is about keeping service available during failure.                                         |
+
+## Fast elimination method
+
+When two answers both look possible, eliminate by keyword:
+
+| Keyword              | Usually eliminates                                                          |
+| -------------------- | --------------------------------------------------------------------------- |
+| Automatic            | Eliminates basic scalability; points to elasticity                          |
+| Full OS control      | Eliminates PaaS and SaaS; points to IaaS                                    |
+| Finished application | Eliminates IaaS and PaaS; points to SaaS                                    |
+| Recover after outage | Eliminates high availability alone; points to reliability/disaster recovery |
+| No upfront hardware  | Eliminates CapEx; points to OpEx/consumption-based                          |
 
 ## Real-world example
 

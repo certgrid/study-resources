@@ -35,6 +35,21 @@ Resource group  = lifecycle container
 Resource        = actual Azure service
 ```
 
+## Cloud service model responsibility
+
+```mermaid
+flowchart LR
+    I[IaaS<br/>Virtual Machines]
+    P[PaaS<br/>App Service / Azure SQL]
+    S[SaaS<br/>Microsoft 365]
+    C1[Customer manages more]
+    M1[Microsoft manages more]
+
+    C1 --> I --> P --> S --> M1
+```
+
+Exam memory hook: IaaS gives the most control, SaaS gives the least management responsibility.
+
 ## Region, zone, and resource placement
 
 ```mermaid
@@ -95,4 +110,48 @@ For AZ-900, focus on what each part does:
 - Azure SQL Database stores relational data.
 - Azure Monitor collects metrics and logs.
 - Microsoft Entra ID provides identity and access.
+
+## Governance decision flow
+
+```mermaid
+flowchart TD
+    Q[What is the requirement?]
+    WHO[Control who can perform actions]
+    WHAT[Control what can be deployed]
+    DELETE[Prevent accidental deletion]
+    GROUP[Organize or report cost]
+
+    Q --> WHO --> RBAC[Use RBAC]
+    Q --> WHAT --> POLICY[Use Azure Policy]
+    Q --> DELETE --> LOCK[Use resource locks]
+    Q --> GROUP --> TAGS[Use tags]
+```
+
+This is one of the most useful AZ-900 decision patterns. Policy, RBAC, locks, and tags appear similar to beginners, but they solve different problems.
+
+## Cost and monitoring lifecycle
+
+```mermaid
+flowchart LR
+    PLAN[Before deployment]
+    RUN[After deployment]
+    IMPROVE[Optimize]
+    ALERT[Detect issues]
+
+    PLAN --> PC[Pricing Calculator]
+    PLAN --> TCO[TCO Calculator]
+    RUN --> CM[Cost Management]
+    RUN --> MON[Azure Monitor]
+    IMPROVE --> ADV[Azure Advisor]
+    ALERT --> SH[Service Health]
+```
+
+Memory hook:
+
+- Pricing Calculator estimates planned Azure services.
+- TCO Calculator compares on-premises cost with Azure.
+- Cost Management tracks actual spend.
+- Azure Monitor collects metrics, logs, and alerts.
+- Azure Advisor gives recommendations.
+- Service Health shows personalized service issues.
 
