@@ -94,6 +94,15 @@ Predictability has two sides:
 - Performance predictability: consistent application performance
 - Cost predictability: understanding and forecasting cloud spend
 
+### Manageability
+
+Manageability also has two sides:
+
+- Management of the cloud: the tools you use to manage cloud resources, such as templates, automation, autoscaling, self-healing based on health checks, and monitoring with alerts
+- Management in the cloud: how you interact with those tools, such as the web portal, command line, APIs, and PowerShell
+
+Exam wording hint: "automatically scale, redeploy from a template, or get alerted on health" points to management of the cloud; "use the portal, CLI, or scripts" points to management in the cloud.
+
 ### Security and governance
 
 Cloud providers secure the physical datacenters and offer security tools. Customers still need to configure access, protect data, monitor threats, and follow governance standards.

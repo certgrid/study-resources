@@ -23,6 +23,16 @@ Each exam is kept in one folder with notes, cheatsheets, labs, and diagrams so l
 | Certification | Platform | Start here |
 | ------------- | -------- | ---------- |
 | AZ-900: Microsoft Azure Fundamentals | Microsoft | [Open study pack](certifications/microsoft/az-900/) |
+| AZ-104: Microsoft Azure Administrator | Microsoft | [Open study pack](certifications/microsoft/az-104/) |
+
+## Coming Soon
+
+| Certification | Platform |
+| ------------- | -------- |
+| AI-901: Microsoft Azure AI Fundamentals | Microsoft |
+| DP-900: Azure Data Fundamentals | Microsoft |
+| SC-900: Security, Compliance, and Identity Fundamentals | Microsoft |
+| PL-900: Microsoft Power Platform Fundamentals | Microsoft |
 
 ## How the Repository Is Organized
 

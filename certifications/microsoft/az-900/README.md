@@ -40,6 +40,12 @@ Pick the path that matches your timeline:
 
 ## Official Skill Areas
 
+Source: [Official AZ-900 study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900). Always confirm the active outline on the official study guide before booking.
+
+Last verified: July 10, 2026
+
+The official study guide lists skills measured as of July 20, 2026. If you are taking the exam before that date, re-check which outline version applies to your exam date, because the earlier outline may still be in effect.
+
 | Domain | Skill area                               | Weight |
 | ------ | ---------------------------------------- | ------ |
 | 1      | Describe cloud concepts                  | 25-30% |
@@ -55,6 +61,8 @@ Pick the path that matches your timeline:
 5. Use the quick reference on the final day.
 
 ## Contents
+
+Every objective in the official outline is mapped to a local file in the [Coverage Matrix](coverage-matrix.md). Use it to confirm nothing in the official study guide is left unread.
 
 ### Study Notes
 
@@ -72,6 +80,8 @@ Pick the path that matches your timeline:
 | [AZ-900 Common Confusions](cheatsheets/az-900-common-confusions.md) | Fixing the traps that cause wrong answers |
 | [AZ-900 Service Picker](cheatsheets/az-900-service-picker.md)       | Choosing the right Azure service quickly  |
 | [AZ-900 Exam-Day Review](cheatsheets/az-900-exam-day-review.md)     | Final 30-minute review before the exam    |
+| [AZ-900 Mock Review](cheatsheets/az-900-mock-review.md)             | Final cumulative scenario pass            |
+| [Azure CLI Cheatsheet](../azure-cli-cheatsheet.md)                  | Recognizing Cloud Shell, CLI, and management command patterns |
 
 ### Hands-On Labs
 

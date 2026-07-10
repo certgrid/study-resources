@@ -45,7 +45,7 @@ Use:
 - Start date: Today
 - Expiration: A future date
 
-Choose a budget amount you are comfortable with. Do not copy someone else’s amount blindly.
+Choose a budget amount you are comfortable with. Do not copy someone else's amount blindly.
 
 ### 4. Configure alerts
 

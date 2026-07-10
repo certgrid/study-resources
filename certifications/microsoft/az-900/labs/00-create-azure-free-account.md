@@ -33,7 +33,7 @@ This is the best first lab for anyone starting an Azure career. The goal is not 
 3. Follow the identity verification steps.
 4. Add billing details if requested.
 
-Billing details are commonly required for verification and future paid usage. Always read the current Azure free account terms on Microsoft’s site before continuing.
+Billing details are commonly required for verification and future paid usage. Always read the current Azure free account terms on Microsoft's site before continuing.
 
 ### 2. Open the Azure portal
 

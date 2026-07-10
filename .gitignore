@@ -22,8 +22,10 @@ secrets/
 *.tfstate.*
 .terraform/
 
-# internal planning - never publish
+# internal planning + tooling - never publish
 ROLLOUT.md
+PACK-BRIEF.md
+tools/
 
 # OS / editor / Office temp
 .DS_Store

@@ -186,6 +186,20 @@ It can help with:
 | Azure Arc             | Manage resources across Azure, on-premises, and other clouds |
 | ARM templates / Bicep | Infrastructure as code                                       |
 
+### Azure Resource Manager (ARM)
+
+Azure Resource Manager is the deployment and management layer for Azure. Every request, whether it comes from the portal, PowerShell, the CLI, or an SDK, goes through ARM, which authenticates it and forwards it to the right service. That is why RBAC, locks, and tags behave the same no matter which tool you use.
+
+| Concept      | Meaning                                                                      |
+| ------------ | ---------------------------------------------------------------------------- |
+| ARM          | The single control plane that receives and processes all management requests |
+| ARM template | A JSON file that declares the resources to deploy (infrastructure as code)   |
+| Bicep        | A friendlier language that compiles to ARM templates                         |
+| Declarative  | You describe the end state; ARM figures out how to create it                 |
+| Repeatable   | The same template deploys the same environment every time                    |
+
+Exam wording hint: "deploy the same environment repeatedly without manual steps" means ARM templates or Bicep, not the portal.
+
 ## Common Confusions
 
 | Confusion                            | Correct idea                                                           |
