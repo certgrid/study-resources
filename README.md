@@ -9,8 +9,8 @@ Each exam is kept in one folder with notes, cheatsheets, labs, and diagrams so l
 | Platform | Study notes |
 | -------- | ----------- |
 | Microsoft | [View Microsoft certification notes](certifications/microsoft/) |
-| AWS | Coming soon |
-| Google Cloud | Coming soon |
+| AWS | [View AWS certification notes](certifications/aws/) |
+| Google Cloud | [View Google Cloud certification notes](certifications/google-cloud/) |
 | Cisco | Coming soon |
 | Security | Coming soon |
 | HashiCorp | Coming soon |
