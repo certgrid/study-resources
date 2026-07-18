@@ -6,41 +6,44 @@ Each exam is kept in one folder with notes, cheatsheets, labs, and diagrams so l
 
 ## Platforms
 
-| Platform | Study notes |
-| -------- | ----------- |
-| Microsoft | [View Microsoft certification notes](certifications/microsoft/) |
-| AWS | [View AWS certification notes](certifications/aws/) |
-| Google Cloud | [View Google Cloud certification notes](certifications/google-cloud/) |
-| Cisco | Coming soon |
-| Security | Coming soon |
-| GitHub | Coming soon |
-| HashiCorp | Coming soon |
-| Linux | Coming soon |
-| VMware | Coming soon |
-| Citrix | Coming soon |
-| Nutanix | Coming soon |
-| Palo Alto Networks | Coming soon |
-| Salesforce | Coming soon |
-| ITIL | Coming soon |
-| Kubernetes / Cloud Native | Coming soon |
+| Platform                  | Study notes                                                           |
+| ------------------------- | --------------------------------------------------------------------- |
+| Microsoft                 | [View Microsoft certification notes](certifications/microsoft/)       |
+| AWS                       | [View AWS certification notes](certifications/aws/)                   |
+| Google Cloud              | [View Google Cloud certification notes](certifications/google-cloud/) |
+| Python                    | [View Python certification notes](certifications/python/)             |
+| Cisco                     | Coming soon                                                           |
+| Security                  | Coming soon                                                           |
+| GitHub                    | Coming soon                                                           |
+| HashiCorp                 | Coming soon                                                           |
+| Linux                     | Coming soon                                                           |
+| VMware                    | Coming soon                                                           |
+| Citrix                    | Coming soon                                                           |
+| Nutanix                   | Coming soon                                                           |
+| Palo Alto Networks        | Coming soon                                                           |
+| Salesforce                | Coming soon                                                           |
+| ITIL                      | Coming soon                                                           |
+| Kubernetes / Cloud Native | Coming soon                                                           |
 
 ## Available Now
 
-| Certification | Platform | Start here |
-| ------------- | -------- | ---------- |
-| AZ-900: Microsoft Azure Fundamentals | Microsoft | [Open study pack](certifications/microsoft/az-900/) |
-| AZ-104: Microsoft Azure Administrator | Microsoft | [Open study pack](certifications/microsoft/az-104/) |
-| AWS Certified Cloud Practitioner (CLF-C02) | AWS | [Open study pack](certifications/aws/aws-clf-c02-cloud-practitioner/) |
-| Google Cloud Digital Leader | Google Cloud | [Open study pack](certifications/google-cloud/google-cloud-digital-leader/) |
+| Certification                                 | Platform     | Start here                                                                             |
+| --------------------------------------------- | ------------ | -------------------------------------------------------------------------------------- |
+| AZ-900: Microsoft Azure Fundamentals          | Microsoft    | [Open study pack](certifications/microsoft/az-900/)                                    |
+| AZ-104: Microsoft Azure Administrator         | Microsoft    | [Open study pack](certifications/microsoft/az-104/)                                    |
+| AWS Certified Cloud Practitioner (CLF-C02)    | AWS          | [Open study pack](certifications/aws/aws-clf-c02-cloud-practitioner/)                  |
+| Google Cloud Digital Leader                   | Google Cloud | [Open study pack](certifications/google-cloud/google-cloud-digital-leader/)            |
+| PCEP: Certified Entry-Level Python Programmer | Python       | [Open study pack](certifications/python/pcep-certified-entry-level-python-programmer/) |
+| PCAP: Certified Associate Python Programmer   | Python       | [Open study pack](certifications/python/pcap-certified-associate-python-programmer/)   |
 
 ## Coming Soon
 
-| Certification | Platform |
-| ------------- | -------- |
-| AI-901: Microsoft Azure AI Fundamentals | Microsoft |
-| DP-900: Azure Data Fundamentals | Microsoft |
+| Certification                                           | Platform  |
+| ------------------------------------------------------- | --------- |
+| AI-901: Microsoft Azure AI Fundamentals                 | Microsoft |
+| DP-900: Azure Data Fundamentals                         | Microsoft |
 | SC-900: Security, Compliance, and Identity Fundamentals | Microsoft |
-| PL-900: Microsoft Power Platform Fundamentals | Microsoft |
+| PL-900: Microsoft Power Platform Fundamentals           | Microsoft |
 
 ## How the Repository Is Organized
 
