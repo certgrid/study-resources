@@ -13,9 +13,15 @@ Each exam is kept in one folder with notes, cheatsheets, labs, and diagrams so l
 | Google Cloud | [View Google Cloud certification notes](certifications/google-cloud/) |
 | Cisco | Coming soon |
 | Security | Coming soon |
+| GitHub | Coming soon |
 | HashiCorp | Coming soon |
 | Linux | Coming soon |
 | VMware | Coming soon |
+| Citrix | Coming soon |
+| Nutanix | Coming soon |
+| Palo Alto Networks | Coming soon |
+| Salesforce | Coming soon |
+| ITIL | Coming soon |
 | Kubernetes / Cloud Native | Coming soon |
 
 ## Available Now
