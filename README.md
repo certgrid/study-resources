@@ -24,6 +24,8 @@ Each exam is kept in one folder with notes, cheatsheets, labs, and diagrams so l
 | ------------- | -------- | ---------- |
 | AZ-900: Microsoft Azure Fundamentals | Microsoft | [Open study pack](certifications/microsoft/az-900/) |
 | AZ-104: Microsoft Azure Administrator | Microsoft | [Open study pack](certifications/microsoft/az-104/) |
+| AWS Certified Cloud Practitioner (CLF-C02) | AWS | [Open study pack](certifications/aws/aws-clf-c02-cloud-practitioner/) |
+| Google Cloud Digital Leader | Google Cloud | [Open study pack](certifications/google-cloud/google-cloud-digital-leader/) |
 
 ## Coming Soon
 
