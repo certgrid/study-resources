@@ -11,7 +11,7 @@ Each exam is kept in one folder with notes, cheatsheets, labs, and diagrams so l
 | Microsoft                 | [View Microsoft certification notes](certifications/microsoft/)       |
 | AWS                       | [View AWS certification notes](certifications/aws/)                   |
 | Google Cloud              | [View Google Cloud certification notes](certifications/google-cloud/) |
-| Python                    | [View Python certification notes](certifications/python/)             |
+| Python                    | Coming soon                                                           |
 | Cisco                     | Coming soon                                                           |
 | Security                  | Coming soon                                                           |
 | GitHub                    | Coming soon                                                           |
@@ -27,14 +27,12 @@ Each exam is kept in one folder with notes, cheatsheets, labs, and diagrams so l
 
 ## Available Now
 
-| Certification                                 | Platform     | Start here                                                                             |
-| --------------------------------------------- | ------------ | -------------------------------------------------------------------------------------- |
-| AZ-900: Microsoft Azure Fundamentals          | Microsoft    | [Open study pack](certifications/microsoft/az-900/)                                    |
-| AZ-104: Microsoft Azure Administrator         | Microsoft    | [Open study pack](certifications/microsoft/az-104/)                                    |
-| AWS Certified Cloud Practitioner (CLF-C02)    | AWS          | [Open study pack](certifications/aws/aws-clf-c02-cloud-practitioner/)                  |
-| Google Cloud Digital Leader                   | Google Cloud | [Open study pack](certifications/google-cloud/google-cloud-digital-leader/)            |
-| PCEP: Certified Entry-Level Python Programmer | Python       | [Open study pack](certifications/python/pcep-certified-entry-level-python-programmer/) |
-| PCAP: Certified Associate Python Programmer   | Python       | [Open study pack](certifications/python/pcap-certified-associate-python-programmer/)   |
+| Certification                              | Platform     | Start here                                                                  |
+| ------------------------------------------ | ------------ | --------------------------------------------------------------------------- |
+| AZ-900: Microsoft Azure Fundamentals       | Microsoft    | [Open study pack](certifications/microsoft/az-900/)                         |
+| AZ-104: Microsoft Azure Administrator      | Microsoft    | [Open study pack](certifications/microsoft/az-104/)                         |
+| AWS Certified Cloud Practitioner (CLF-C02) | AWS          | [Open study pack](certifications/aws/aws-clf-c02-cloud-practitioner/)       |
+| Google Cloud Digital Leader                | Google Cloud | [Open study pack](certifications/google-cloud/google-cloud-digital-leader/) |
 
 ## Coming Soon
 
